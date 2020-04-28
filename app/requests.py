@@ -80,7 +80,7 @@ def get_articles():
 	Function that processes the articles and returns a list of articles objects
 	'''
 
-	with urllib.request.urlopen(articles_url+ '0a042e1d094b4ea19a76db624bc235df') as url:
+	with urllib.request.urlopen(articles_url + '0a042e1d094b4ea19a76db624bc235df') as url:
 		articles_results = json.loads(url.read())
 
 
