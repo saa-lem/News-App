@@ -28,7 +28,7 @@ def get_sources():
 	# get_sources_url = base_url.format(base_url,' 0a042e1d094b4ea19a76db624bc235df')
 	# print(get_sources_url)
 
-	with urllib.request.urlopen(base_url + ' 0a042e1d094b4ea19a76db624bc235df') as url:
+	with urllib.request.urlopen(base_url + '0a042e1d094b4ea19a76db624bc235df') as url:
      
 		get_sources_data = url.read()
 		get_sources_response = json.loads(get_sources_data)
@@ -80,7 +80,7 @@ def get_articles():
 	Function that processes the articles and returns a list of articles objects
 	'''
 
-	with urllib.request.urlopen(articles_url+ ' 0a042e1d094b4ea19a76db624bc235df') as url:
+	with urllib.request.urlopen(articles_url+ '0a042e1d094b4ea19a76db624bc235df') as url:
 		articles_results = json.loads(url.read())
 
 
