@@ -13,7 +13,7 @@ An application that list and preview news articles from various sources.
 |The News Articles| On click to read more| Displays the articles to the news sources
  
 ## Link to deployed site
-https://news-high-light.herokuapp.com/ 
+https://salem-news.herokuapp.com/
 
 
 
